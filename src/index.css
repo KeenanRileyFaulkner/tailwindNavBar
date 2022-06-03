@@ -40,7 +40,7 @@
   }
 
   .close-icon {
-    @apply text-gray-100 self-center ml-[100px] scale-0 rounded
+    @apply text-gray-100 self-center ml-[90px] scale-0 rounded
            transition-all duration-200;
   }
 

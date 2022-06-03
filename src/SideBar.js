@@ -7,13 +7,13 @@ const SideBar = () => {
                         flex flex-col
                         bg-gray-900 text-white shadow-lg
                         dark:bg-gray-900 dark:text-white">
-            <SideBarIcon icon={<FaHome size="28" />} className="text-white"/>
+            <SideBarIcon icon={<FaHome size="28" />} text="Home 🏠"className="text-white"/>
             <Divider />
-            <SideBarIcon icon={<BsPlus size="32" />} />
-            <SideBarIcon icon={<BsFillLightningFill size="20" />} />
-            <SideBarIcon icon={<FaCompass size="20" />} />
+            <SideBarIcon icon={<BsPlus size="32" />} text="Add a channel" />
+            <SideBarIcon icon={<BsFillLightningFill size="20" />} text="Visit gitHub repo" />
+            <SideBarIcon icon={<FaCompass size="20" />} text="Explore public servers 🔎"/>
             <Divider />
-            <SideBarIcon icon={<BsGearFill size="20" />} />
+            <SideBarIcon icon={<BsGearFill size="20" />} text="Change settings 🔧"/>
         </div>
     );
 };
