@@ -44,4 +44,44 @@
            transition-all duration-200;
   }
 
+  .top-bar-container {
+    @apply flex flex-row items-center justify-evenly 
+         bg-gray-800 bg-opacity-90 
+         w-full h-16 
+         m-0 
+         shadow-lg;
+  }
+
+  .title-hashtag {
+    @apply text-lg tracking-wider font-semibold text-gray-400 
+           ml-2 my-auto;
+  }
+
+  .title-text {
+    @apply text-xl text-gray-400 tracking-wider font-semibold 
+           mr-auto my-auto 
+           transition duration-300 ease-in-out hover:cursor-default;
+  }
+
+  .top-bar-icon {
+    @apply text-gray-400
+           mr-3 ml-4
+           hover:cursor-pointer hover:text-gray-200;
+  }
+
+  .search {
+    @apply w-1/5 flex items-center justify-start 
+    bg-gray-900
+    text-gray-400
+    px-2 h-9 ml-0 mr-0 
+    rounded-md shadow-md;
+  }
+
+  .search-input {
+    @apply w-full font-sans font-semibold
+    bg-transparent outline-none 
+    text-gray-400  placeholder-gray-400
+    pl-1 rounded;
+  }
+
 }

@@ -10,10 +10,12 @@ const SideBar = () => {
             <SideBarIcon icon={<FaHome size="28" />} text="Home 🏠"className="text-white"/>
             <Divider />
             <SideBarIcon icon={<BsPlus size="32" />} text="Add a channel" />
-            <SideBarIcon icon={<BsFillLightningFill size="20" />} text="Visit gitHub repo" />
-            <SideBarIcon icon={<FaCompass size="20" />} text="Explore public servers 🔎"/>
+            <a href='https://github.com/KeenanRileyFaulkner/tailwindNavBar.git'>
+                <SideBarIcon icon={<BsFillLightningFill size="20" />} text="Visit gitHub repo" />
+            </a>
+            <SideBarIcon icon={<FaCompass size="20" />} text="Explore public servers 🔎" />
             <Divider />
-            <SideBarIcon icon={<BsGearFill size="20" />} text="Change settings 🔧"/>
+            <SideBarIcon icon={<BsGearFill size="20" />} text="Change settings 🔧" />
         </div>
     );
 };
